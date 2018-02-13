@@ -4,14 +4,24 @@
 
 ## Description
 
-A cookbook for provisioning an ubuntu 16.04 xenial machine with frameworks for testing and linting in JavaScript and Ruby
+A chef cookbook for provisioning an ubuntu 16.04 xenial machine with frameworks for testing and linting in JavaScript and Ruby
 
 ## Technologies
 
+### Host Machine Testing Requirements
 - ChefDK
 - Vagrant
 - VirtualBox
 - Packer (optional for AMI building)
+
+### Client Machine Cookbook Installations
+- Node.js
+- NPM
+- Jasmine
+- JSLint
+- Ruby
+- Rubocop
+- RSpec
 
 ## Installation and Usage
 
