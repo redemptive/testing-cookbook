@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 source 'https://supermarket.chef.io'
 
-metadata
+cookbook 'testing', git: 'https://github.com/redemptive/testing-cookbook.git'
