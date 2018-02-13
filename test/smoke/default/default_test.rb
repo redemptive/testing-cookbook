@@ -3,16 +3,32 @@
 # Inspec test for recipe testing::default
 
 # The Inspec reference, with examples and extensive documentation, can be
-# found at http://inspec.io/docs/reference/resources/
+# found at http://inspec.io/docs/reference/resources/ |
 
-unless os.windows?
-  # This is an example test, replace with your own test.
-  describe user('root'), :skip do
-    it { should exist }
-  end
+describe package('ruby') do
+	it {should be_installed}
 end
 
-# This is an example test, replace it with your own test.
-describe port(80), :skip do
-  it { should_not be_listening }
+describe package('npm') do
+	it {should be_installed}
+end
+
+describe package('nodejs') do
+	it {should be_installed}
+end
+
+describe gem('rspec') do
+  it { should be_installed }
+end
+
+describe gem('rubocop') do
+  it { should be_installed }
+end
+
+describe npm('jasmine') do
+  it { should be_installed }
+end
+
+describe npm('eslint') do
+  it { should be_installed }
 end
