@@ -11,11 +11,11 @@ A cookbook for provisioning an ubuntu 16.04 xenial machine with frameworks for t
 - ChefDK
 - Vagrant
 - VirtualBox
-- Packer (optional for AWS)
+- Packer (optional for AMI building)
 
 ## Installation and Usage
 
-Install all the dependancies listed above. 
+Required programs for using this repository are listed above, please install these to use this repository. 
 
 ### Testing this cookbook
 Clone the repository and navigate to the root of the repository. Then run kitchen test from this location.
