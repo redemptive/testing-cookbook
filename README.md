@@ -28,7 +28,7 @@ A chef cookbook for provisioning an ubuntu 16.04 xenial machine with frameworks 
 Required programs for using this repository are listed above, please install these to use this repository. 
 
 ### Testing this cookbook
-Clone the repository and navigate to the root of the repository. Then run kitchen test from this location.
+Clone the repository and navigate to the root of the cloned repository. Then run kitchen test from this location.
 
 ### Creating an AMI with this image
-Clone the repository and run packer build packer.json from the root of the cloned repository
+Clone the repository and run berks vendor cookbooks from the root directory of the cloned repository. Then run packer build packer.json from the same location
